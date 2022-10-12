@@ -1,0 +1,25 @@
+.blocks-8{
+    background: #f9f9f9;
+    position: absolute;
+    padding: 47px;
+}
+.b8-img{
+    position: relative;
+    padding-left: 65px;
+}
+.b8-img img{
+    width: 150px;
+    margin: 0 25px;
+}
+.block8{
+    display: flex;
+    padding-left: 15px;
+    justify-content: center;
+}
+.b8-text{
+    font-size: 32px;
+    line-height: 41.21px;
+    font-family: U8-Bold!important;
+    font-weight: 550;
+    color: #0c1825;
+}

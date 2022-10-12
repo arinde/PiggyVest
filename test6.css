@@ -1,0 +1,108 @@
+.block9-cont{
+    display: flex;
+    padding-top: 50px;
+}
+.block9-row{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+.img-b9{
+    
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.product-b9{
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 0.9em;
+}
+.company-b9{
+    
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 0.8em;
+}
+.legal-b9{
+    
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 0.8em;
+}
+.socials-b9{
+    
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.check-9{
+    display: flex;
+    justify-content: end;
+}
+.check10 p{
+    display: flex;
+    justify-content: end;
+}
+.check11{
+    text-align: end;
+    color: #0c1825;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 450;
+    font-size:1em;
+
+}
+.head-9{
+    font-weight: 550;
+    font-family: U8-Bold!important;
+    margin-bottom: 20px;
+    color: #0c1825;
+    font-size:1.2em;
+    
+
+}
+.text-9{
+    
+    font-family: sans-serif;
+    color: #0c1825;
+    font-weight: 450;
+    font-size:1em;
+    letter-spacing: 0.06em;
+    
+    
+}
+.fa {
+    font-size: 15px;
+    font-weight: 540;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    }
+.fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #0f0d0d;
+    color: white;
+    
+    }
+.fa-twitter {
+    background: #0f0c0c;
+    color: white;
+    }
+
+.fa-instagram {
+    background: #1f1e1e;
+    color: white;
+    }

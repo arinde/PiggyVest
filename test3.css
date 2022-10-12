@@ -1,0 +1,51 @@
+.block6{
+    display: flex;
+}
+.block-6{
+    position: absolute;
+    justify-content: center;
+}
+.col8{
+   background-color: #0d60d8;
+   width: 100%;
+   position: relative;
+   padding: 60px;
+   
+   
+}
+.content6{
+    
+    width: 100%;
+   
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 295px;
+    padding-right: 295px;
+}
+.col9{
+    background-image:url(block6-img.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    width: 100%;
+}
+.link6{
+    color: white;
+    font-weight: 500;
+}
+
+.title6{
+    font-size: 45px;
+    line-height: 50px;
+    font-family: U8-Bold!important;
+    display: block;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.text6{
+    font-family: DM Sans, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif!important;
+    line-height: 22.2px;
+    font-weight:lighter;
+    padding-bottom: 25px;
+}

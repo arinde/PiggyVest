@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    position: relative;
+}
+.row{
+    justify-content: space-around;
+}
+.piggy{
+    justify-content: end;
+    
+}
+.home{
+    box-sizing: border-box;
+    opacity: 1;
+    position: relative;
+
+
+    margin-top: 45px!important;
+    margin-left: 0px;
+    
+
+    border-radius: 20px;
+    padding: 30px 20px 50px 30px;
+    background-color: #f9f9f9;
+    
+}
+.col1{
+    box-sizing: border-box;
+    opacity: 1;
+    position: relative;
+    margin-top: 55px!important;
+    margin-right: 0px;
+    padding: 30px 10px 30px 30px;
+}
+.col2{
+    margin-right: 23px;
+}
+.col3{
+    margin-right: -80px;
+}
+.col4{
+    margin-right: 40px;
+}
+.col5{
+    margin-right: -70px;
+}
+.title1{
+    font-weight:700;
+    color: #0c1825;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content h2{
+    letter-spacing: 2px;
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+}
+.text1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+}
+.link1{
+    text-decoration: none;
+    background-color: #020218;
+    color: white;
+    text-align: center;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    z-index: 1;
+    padding-right: 15px;
+    margin-top: 12px;
+    padding-left: 10px;
+    
+}
+.text{
+    font-family: DM Sans,sans-serif!important;
+    color: #353535;
+    line-height: 27.2px;
+    font-size: 16.5px;
+    -webkit-font-smoothing: antialiased;
+    margin: 18px 0 40px!important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.title{
+    margin-top: 25px!important;
+    max-width: 250px;
+    color: #0c1825;
+    display: block;
+    font-size: 1.1em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
