@@ -23,3 +23,11 @@
     font-weight: 550;
     color: #0c1825;
 }
+.b2-circle{
+    transform: translate(0px, 0px); 
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 340px;
+    left: 60%;
+}

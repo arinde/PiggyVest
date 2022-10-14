@@ -5,7 +5,7 @@ body{
 /* color: red; */
 }
 .gap-x{
-    padding: 0 120px;
+    padding: 0 50px;
 }
 .header-wrapper{
     position: fixed;
@@ -15,14 +15,30 @@ body{
     background: white;
 }
 .header{
-    display: flex
+    display: flex;
     
     align-items: center;
-    margin-top: 15px;
+    
     /* width: 100%; */
     background: white;
 }
 
+.navbar{
+     
+    position: absolute; 
+    background-color: white; 
+    top: 0; 
+    left: 0; 
+    right: -0;
+    padding: 18px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.ml-auto{
+    margin-right: 50px;
+}
+.logo{
+    margin-left: 200px;
+}
 .nav {
     background-color: white;
     justify-content: space-between;
@@ -61,16 +77,17 @@ body{
     /* height: 100vh; */
     background: white;
     display: flex;
-    padding-top: 150px;
+    padding-top: 90px;
     margin-bottom: -550px;
 }
 .b2-h1{
-    color: black;
-    font-weight: bold;
-    font-size: 50px;
+    color: #0c1825;
+    font-weight: 700;
     margin: 0;
-    line-height: 1;
     opacity: 1;
+    line-height: 70px;
+    font-size: 50px;
+    font-family: 'GT Eesti', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .block-2-main{
    
@@ -105,7 +122,7 @@ body{
 
 .block-2-img{
     position: relative;
-    top: -450px;
+    top: -400px;
     margin-left: 800px;
 }
 .block-2-text{
@@ -154,6 +171,44 @@ body{
     top: 340px; 
     left: 60%;
 }
+.b2-circle{
+    transform: translate(0px, 0px); 
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    left: 362px;
+}
+.b2-cross{
+    transform: translate(0px, 0px); 
+    opacity: 1;
+    position: absolute;
+    left: -380px;
+    top: -200px;
+}
+.b2-dot{
+    transform: translate(0px, 0px); 
+    opacity: 1;
+    position: relative;
+    left: -355px;
+    top: 245px;
+}
+.form1{
+    text-decoration: none; 
+    
+    background-color: #020218; 
+    border: 0.5px solid black; 
+    border-radius: 10px; 
+    padding: 10px;
+    width: 36%;
+}
+.form1 a{
+    color: white;
+    text-align:end;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
 .form{
     display: flex;
 }
@@ -169,10 +224,10 @@ body{
     padding-right: -50px;
     margin-right: 255px;
     margin-top: 10px;
+    padding: 10px 20px;
 }
 .form a{
     color: white;
-    text-align: center;
     padding-left: 7px;
 }
 .block-3{
@@ -320,9 +375,10 @@ body{
     margin-inline-end: 0px;
     font-weight: bold;
 }
-
+/*section 5 investment*/
 .blocks5{
     display: flex;
+    position: relative;
 }
 
 .block5{
@@ -332,7 +388,8 @@ body{
 }
 .col6{
     margin-top: 50px;
-    margin-left: 205px;
+    margin-left: 195px;
+    
 }
 .img5{
     width: 60%!important;
@@ -344,14 +401,18 @@ body{
     position: absolute;
     margin-left: -150px;
     padding: 25px;
+    z-index: -1;
+    max-width: 250px;
 }
 .dot{
     margin-top: -305px;
     padding: 3px;
+    position: relative;
 }
 .col7{
     margin-top: 90px;
-    margin-left: -110px;
+    margin-left: -100px;
+    
 }
 .tag{
     background-color: #f7f0ff;
@@ -392,6 +453,7 @@ body{
 .block6{
     display: flex;
     padding-top: 120px;
+    margin-bottom: 90px;
 }
 .block-6{
     position: absolute;
@@ -545,26 +607,7 @@ body{
         padding-right: -40px;
     }
 
-    .form{
-        display: flex;
-    }
-    .form{
-        text-decoration: none;
-        background-color: #020218;
-        color: white;
-        padding: 10px 20px;
-        padding-bottom: 14px;
-        border-radius: 10px;
-        font-weight: bold;
-        z-index: 1;
-        padding-right: -50px;
-        margin-right: 255px;
-        margin-top: 10px;
-    }
-    .form a{
-        color: white;
-        padding-left: 7px;
-    }
+    
     .account{
         text-align: center;
     }
