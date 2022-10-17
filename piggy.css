@@ -828,19 +828,3 @@ body{
 }
 
 
-@media only screen and (max-width: 992px)
-body {
-    text-align: center!important;
-}
-
-@media only screen and (max-width: 992px)
-.header .left {
-    display: block;
-    margin-bottom: 90px;
-}
-
-@media only screen and (max-width: 992px)
-.content, .content p, .header .text, .interact .link, .testimonials .box .block-2-text .block-3-text .text-9{
-    margin-left: auto!important;
-    margin-right: auto!important;
-}
