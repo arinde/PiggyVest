@@ -112,7 +112,7 @@ body{
     border: 0.5px solid black; 
     border-radius: 10px; 
     padding: 10px;
-    width: 47%;
+    width: 49%;
 }
 .form1 a{
     color: white;
@@ -196,7 +196,7 @@ body{
     position: absolute;
     left: 0;
     top: -20px;
-    left: 362px;
+    left: -362px;
 }
 .b2-cross{
     transform: translate(0px, 0px); 
@@ -209,8 +209,8 @@ body{
     transform: translate(0px, 0px); 
     opacity: 1;
     position: relative;
-    left: -355px;
-    top: 245px;
+    left: -53px;
+    top: 10px;
 }
 
 .form{
@@ -827,3 +827,20 @@ body{
     padding-bottom: 50px;
 }
 
+
+@media only screen and (max-width: 992px)
+body {
+    text-align: center!important;
+}
+
+@media only screen and (max-width: 992px)
+.header .left {
+    display: block;
+    margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 992px)
+.content, .content p, .header .text, .interact .link, .testimonials .box .block-2-text .block-3-text .text-9{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
